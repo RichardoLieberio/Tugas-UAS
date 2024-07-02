@@ -1,7 +1,31 @@
+.modal-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .favorite {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-size: 3rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    font-size: 2.2rem;
     color: orange;
+    cursor: pointer;
+}
+
+.star:hover {
+    font-size: 2.4rem;
+}
+
+.modal-title {
+    position: absolute;
+    left: 3rem;
+    margin-left: 1rem;
+}
+
+.hide {
+    display: none;
 }

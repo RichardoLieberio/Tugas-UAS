@@ -1,0 +1,11 @@
+#sortable {
+    margin-left: 0;
+    padding: 0;
+    grid: 0;
+    list-style-type: none;
+}
+
+.ui-state-default {
+    margin: 0;
+    padding: 0;
+}
