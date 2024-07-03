@@ -2,14 +2,16 @@
 
   'use strict'
 
-  Array.prototype.slice.call($(".needs-validation")).forEach(function (form) {
-    form.submit(function (event) {
+  var forms = document.querySelectorAll('.needs-validation');
+
+  Array.prototype.slice.call(forms).forEach(function (form) {
+    form.addEventListener('submit', function (event) {
       if (!form.checkValidity()) {
-        event.preventDefault();
-        event.stopPropagation();
+        event.preventDefault()
+        event.stopPropagation()
       }
 
-      form.addClass('was-validated');
+      form.classList.add('was-validated')
     }, false)
   });
 
