@@ -1,0 +1,11 @@
+Nama tim : Ada
+
+Anggota 1 : Richardo Lieberio - 231112175
+Anggota 2 : Alvin Ong - 231110804
+
+Teknologi yang digunakan :
+- Bootstrap
+- JQuery
+- Slick
+
+Link template : https://templated.co/snapshot/
