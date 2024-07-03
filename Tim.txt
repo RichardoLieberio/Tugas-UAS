@@ -5,7 +5,9 @@ Anggota 2 : Alvin Ong - 231110804
 
 Teknologi yang digunakan :
 - Bootstrap
+- Bootstrap Icons
 - JQuery
+- JQuery UI
 - Slick
 
 Link template : https://templated.co/snapshot/
