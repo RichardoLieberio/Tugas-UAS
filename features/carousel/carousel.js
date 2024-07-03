@@ -1,4 +1,5 @@
-$(document).ready(function(){
+$(document).ready(function() {
+
     $('.content').slick({
         infinite: true,
         slidesToShow: 3,
@@ -6,4 +7,5 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 2000
     });
+
 });

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $(document).on("click", ".bi-star-fill", function() {
         const id = $(this).parent().parent().parent().parent().parent().attr("id");
         $(".media").each(function(i, v) {
@@ -16,4 +17,5 @@ $(document).ready(function() {
             }
         });
     });
+
 });
